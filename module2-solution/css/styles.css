@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box;
+	font-family: Helvetica;
+}
+h1 {
+	margin-bottom: 15px;
+}
+body > div {
+	margin: 5px 5px 5px 5px;
+	background-color: #A52A2A;
+}
+p {
+	border: 1px solid black;
+  	width: 90%;
+  	height: 150px;
+  	margin-right: auto;
+  	margin-left: auto;
+  	color: white;
+}
+.row {
+	width: 100%;
+}
+@media (min-width: 992px) {
+	desktop4 {
+		width: 33.33%;
+		float: left;
+		border: 1px solid blue;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	tablet6 {
+		width: 50%;
+		float: left;
+		border: 1px solid blue;
+	}
+}
