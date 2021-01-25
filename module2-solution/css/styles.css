@@ -3,34 +3,63 @@
 	font-family: Helvetica;
 }
 h1 {
+	text-align: center;
 	margin-bottom: 15px;
 }
-body > div {
-	margin: 5px 5px 5px 5px;
-	background-color: #A52A2A;
-}
 p {
-	border: 1px solid black;
-  	width: 90%;
+	float: left;
+	padding: 10px;
+  	width: 100%;
   	height: 150px;
-  	margin-right: auto;
-  	margin-left: auto;
   	color: white;
+  	position: relative;
 }
 .row {
 	width: 100%;
 }
 @media (min-width: 992px) {
-	desktop4 {
-		width: 33.33%;
+	.desktop4 {
 		float: left;
-		border: 1px solid blue;
+		width: 33.33%;
 	}
 }
 @media (min-width: 768px) and (max-width: 991px) {
-	tablet6 {
-		width: 50%;
+	.tablet6 {
 		float: left;
-		border: 1px solid blue;
+		width: 50%;
 	}
+	.tablet12 {
+		float: left;
+		width: 100%;
+	}
+}
+
+#box {
+	overflow: auto;
+	border: 1px solid black;
+	background-color: #A52A2A;
+	position: relative;
+	margin-left: 15px;
+	margin-top: 30px;
+}
+#box2 {
+	float: right;
+	width: 100px;
+	height: 60px;
+	background-color: #13FC03;
+	border: 1px solid black;
+}
+#box3 {
+	float: right;
+	width: 100px;
+	height: 60px;
+	background-color: #03F8FC;
+	border: 1px solid black;
+}
+#box4 {
+	float: right;
+	width: 150px;
+	height: 60px;
+	background-color: #F803FC;
+	border: 1px solid black;
 }
